@@ -7,6 +7,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2881595306709560481, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+      propertyPath: m_Size.x
+      value: 0.22717309
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881595306709560481, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+      propertyPath: m_Size.y
+      value: 0.33072847
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881595306709560481, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05195493
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881595306709560481, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.044126004
+      objectReference: {fileID: 0}
+    - target: {fileID: 2881595306709560481, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2881595306709560484, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -65,4 +85,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2881595306709560480, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+    - {fileID: 2881595306709560487, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+--- !u!1 &426516807078002003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2881595306709560485, guid: c15ac46b907ee894f9a21dcfaf4f858c, type: 3}
+  m_PrefabInstance: {fileID: 2456204989828502006}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1273990996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426516807078002003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 264063781a3ee15408c81398beb4cb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  maxHealth: 100
