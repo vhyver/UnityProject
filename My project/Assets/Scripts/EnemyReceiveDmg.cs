@@ -25,6 +25,7 @@ public class EnemyReceiveDmg : MonoBehaviour
         }
     }
 
+    //heal mechanics?
     private void CheckOverHeal()
     {
         if(health > maxHealth) 
