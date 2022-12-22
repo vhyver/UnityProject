@@ -2,11 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyReceiveDmg : MonoBehaviour
 {
     public float health;
     public float maxHealth;
+
+    public GameObject healthBar;
+    public Slider healthBarSlider;
     void Start()
     {
         health = maxHealth;
@@ -14,8 +18,10 @@ public class EnemyReceiveDmg : MonoBehaviour
 
     public void ReceiveDamage(float dmg)
     {
+        healthBar.SetActive(true);
         health -= dmg;
         CheckDeath();
+        healthBarSlider.value = VisualiseHealth();
     }
     private void CheckDeath()
     {
@@ -32,5 +38,10 @@ public class EnemyReceiveDmg : MonoBehaviour
         {
             health = maxHealth;
         }
+    }
+
+    private float VisualiseHealth()
+    {
+        return health / maxHealth;
     }
 }

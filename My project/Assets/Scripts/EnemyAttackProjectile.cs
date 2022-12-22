@@ -9,10 +9,10 @@ public class EnemyAttackProjectile : MonoBehaviour
     {
         if (collision.tag != "Enemy")
         {
-            //if (collision.GetComponent<EnemyReceiveDmg>() != null)
-            //{
-            //    collision.GetComponent<EnemyReceiveDmg>().ReceiveDamage(dmg);
-            //}
+            if (collision.tag == "Player")
+            {
+                PlayerStats.stats.ReceiveDamage(dmg);
+            }
             Destroy(gameObject);
         }
     }

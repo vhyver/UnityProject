@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestSkill Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2895104244038025168, guid: 8ef4083336f9ea847a3f55ba1909b4fd, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 8335503598486027206, guid: 8ef4083336f9ea847a3f55ba1909b4fd, type: 3}
       propertyPath: m_Color.b
       value: 0.08899963

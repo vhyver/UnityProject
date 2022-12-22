@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 2881595306709560484}
   - component: {fileID: 2881595306709560481}
   - component: {fileID: 2881595306709560480}
+  - component: {fileID: 1374937053}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -146,3 +147,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+--- !u!114 &1374937053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2881595306709560485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8600ad76eff624da2f0a8013350de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 2895104244038025168, guid: 8ef4083336f9ea847a3f55ba1909b4fd, type: 3}
+  minDmg: 5
+  maxDmg: 10
+  projectileForce: 5
