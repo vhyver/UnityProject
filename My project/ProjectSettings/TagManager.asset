@@ -42,3 +42,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4442129
+    locked: 0
+  - name: Walls
+    uniqueID: 2814967005
+    locked: 0
+  - name: Edges
+    uniqueID: 3995972527
+    locked: 0
+  - name: Decorations
+    uniqueID: 1728698363
+    locked: 0
+  - name: Player
+    uniqueID: 1528831843
+    locked: 0
