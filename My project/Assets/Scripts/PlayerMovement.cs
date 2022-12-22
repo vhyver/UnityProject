@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private void TakeInput()
     {
         direction = Vector2.zero;
-
+        
         if (Input.GetKey(KeyCode.W))
         {
             direction += Vector2.up;
