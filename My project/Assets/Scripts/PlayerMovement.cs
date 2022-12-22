@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -55,5 +56,8 @@ public class PlayerMovement : MonoBehaviour
         else
             animator.SetBool("IsRunning", false);
     }
-
+    public void ShootAnim(bool value)
+    {
+        animator.SetBool("IsAttacking", value);
+    }
 }
